@@ -9,10 +9,11 @@ h1{font-size: 40px;}
 p{font-size: 20px;}
 
 header{
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(9, 9, 9);
     padding: 20px;
-    font-size: 25px;
+    font-size: 40px;
     color: rgb(42, 122, 228);}
+    <p style="font-family: Libertinus Serif, sans-serif; font-size: 16px;" </p>
 
 .chamada{
     background: rgb(184, 156, 213);
