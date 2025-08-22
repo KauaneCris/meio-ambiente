@@ -5,7 +5,7 @@ body{
    margin: 50px;}
 
 h1{font-size: 40px;}
-
+h2{color: rgb(42, 122, 228);}
 p{font-size: 20px;}
 
 header{
@@ -47,4 +47,5 @@ section {
 
 .categoriavideos img:hover {
      opacity: 1.0;
+
 }
