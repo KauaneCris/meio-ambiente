@@ -1,57 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lWalZjpP0MY?si=w9v7TSOsODIVNlpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <title>Seção de Vídeos do YouTube</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    
-
-    <title>Meio ambiente</title>
 </head>
-
 <body>
-    <header> Meio Ambiente </header>
-     <section>
-        <h2>Cuidados com o meio ambiente</h2>
-         <h4> Cuidar do meio ambiente é uma responsabilidade coletiva que impacta diretamente nossa saúde, bem-estar e qualidade de vida. A degradação de recursos naturais, como água, solo e ar contribui para mudanças climáticas, escassez, desastres naturais e prejuízos à saúde pública.
-             Esses efeitos também atingem a economia: setores como agricultura, turismo e indústria dependem de um ambiente equilibrado. A falta de cuidado gera custos elevados e amplia desigualdades, enquanto práticas sustentáveis promovem inovação, geram empregos e fortalecem a economia de forma mais justa.
-             Proteger o meio ambiente, portanto, não é apenas uma questão ética, mas uma ação estratégica e essencial para um futuro saudável e economicamente estável.</h4>
+    <div class="container">
+        <header>
+            <h1>Meio ambiente</h1>
+        </header>
         
-          <div class = "categoriavideos">
-            
-            <!--https://img.youtube.com/vi/LINK_AQUI/maxresdefault.jpg;-->
-             <a href="https://www.youtube.com/watch?v=k5oTxQdV_Y0";
-                <img src="https://img.youtube.com/vi/k5oTxQdV_Y0/maxresdefault.jpg; />
-             </a>
-               
-             <a href="https://www.youtube.com/watch?v=UjU0RlTzP4Y";
-                <img src="https://img.youtube.com/vi/UjU0RlTzP4Y/maxresdefault.jpg; />
-             </a>
-             
-             <a href="https://www.youtube.com/watch?v=qgd-tCXwDNk";
-                <img src="https://img.youtube.com/vi/qgd-tCXwDNk/maxresdefault.jpg; />
-             </a>
-             
-             <a href="https://www.youtube.com/watch?v=Okq3yxCeajc";
-                <img src="https://img.youtube.com/vi/Okq3yxCeajc/maxresdefault.jpg; />
-             </a>
-             
-             <a href="https://www.youtube.com/watch?v=8sUH_tEBfGw";
-                <img src="https://img.youtube.com/vi/8sUH_tEBfGw/maxresdefault.jpg; />
-             </a>
+        <div class="chamada">
+            <div class="chamada-texto">
+                <h1> Cuidados com o meio ambiente </h1>
+                <p> Cuidar do meio ambiente é uma responsabilidade coletiva que impacta diretamente nossa saúde, bem-estar e qualidade de vida. A degradação de recursos naturais, como água, solo e ar contribui para mudanças climáticas, escassez, desastres naturais e prejuízos à saúde pública. Esses efeitos também atingem a economia: setores como agricultura, turismo e indústria dependem de um ambiente equilibrado. A falta de cuidado gera custos elevados e amplia desigualdades, enquanto práticas sustentáveis promovem inovação, geram empregos e fortalecem a economia de forma mais justa. Proteger o meio ambiente, portanto, não é apenas uma questão ética, mas uma ação estratégica e essencial para um futuro saudável e economicamente estável. </p>
+            </div>
         </div>
+        
+        <section>
+            <h2><i class="fab fa-youtube"></i> Outros vídeos</h2>
+            <div class="categoriavideos" id="carrossel">
+                <!-- Vídeo 1 -->
+                <div class="video-item">
+                    <a href="https://www.youtube.com/watch?v=4-L_U17LxkA" target="_blank">
+                        <img src="https://img.youtube.com/vi/4-L_U17LxkA/maxresdefault.jpg" alt="Documentário: Sustentabilidade, desafio de todos">
+                        <div class="play-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="video-title">Documentário: Sustentabilidade, desafio de todos</div>
+                    </a>
+                </div>
+                
+                <!-- Vídeo 2 -->
+                <div class="video-item">
+                    <a href="https://www.youtube.com/watch?v=8sUH_tEBfGw" target="_blank">
+                        <img src="https://img.youtube.com/vi/8sUH_tEBfGw/maxresdefault.jpg" alt="O que é SUSTENTABILIDADE?">
+                        <div class="play-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="video-title">O que é SUSTENTABILIDADE?</div>
+                    </a>
+                </div>
+                
+                <!-- Vídeo 3 -->
+                <div class="video-item">
+                    <a href="https://www.youtube.com/watch?v=Okq3yxCeajc" target="_blank">
+                        <img src="https://img.youtube.com/vi/Okq3yxCeajc/maxresdefault.jpg" alt="A IMPORTÂNCIA de CUIDAR do MEIO AMBIENTE">
+                        <div class="play-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="video-title">A IMPORTÂNCIA de CUIDAR do MEIO AMBIENTE</div>
+                    </a>
+                </div>
+                
+                <!-- Vídeo 4 -->
+                <div class="video-item">
+                    <a href="https://www.youtube.com/watch?v=qgd-tCXwDNk" target="_blank">
+                        <img src="https://img.youtube.com/vi/qgd-tCXwDNk/maxresdefault.jpg" alt="ENTENDA A RELAÇÃO ENTRE COMÉRCIO E MEIO AMBIENTE">
+                        <div class="play-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="video-title">ENTENDA A RELAÇÃO ENTRE COMÉRCIO E MEIO AMBIENTE</div>
+                    </a>
+                </div>
+                
+                <!-- Vídeo 5 -->
+                <div class="video-item">
+                    <a href="https://www.youtube.com/watch?v=UjU0RlTzP4Y" target="_blank">
+                        <img src="https://img.youtube.com/vi/UjU0RlTzP4Y/maxresdefault.jpg" alt="O QUE é SUSTENTABILIDADE?">
+                        <div class="play-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="video-title">O QUE é SUSTENTABILIDADE?</div>
+                    </a>
+                </div>
+                
+                <!-- Vídeo 6 -->
+                <div class="video-item">
+                    <a href="https://www.youtube.com/watch?v=k5oTxQdV_Y0" target="_blank">
+                        <img src="https://img.youtube.com/vi/k5oTxQdV_Y0/maxresdefault.jpg" alt=" Meio Ambiente e Sustentabilidade ">
+                        <div class="play-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="video-title">Meio Ambiente e Sustentabilidade - Geografia</div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="carrossel-controles">
+                <button class="btn btn-scroll" onclick="scrollCarrossel('left')"><i class="fas fa-chevron-left"></i></button>
+                <button class="btn btn-scroll" onclick="scrollCarrossel('right')"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+        
+        
+    </div>
 
-    </section>
+    <script>
+        function scrollCarrossel(direction) {
+            const carrossel = document.getElementById('carrossel');
+            const scrollAmount = 300;
+            
+            if (direction === 'left') {
+                carrossel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else {
+                carrossel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+        
+        // Adiciona navegação por keyboard
+        document.addEventListener('keydown', function(event) {
+            const carrossel = document.getElementById('carrossel');
+            const scrollAmount = 300;
+            
+            if (event.key === 'ArrowLeft') {
+                carrossel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else if (event.key === 'ArrowRight') {
+                carrossel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        });
+    </script>
 </body>
-
-
-
-
-</html>
+</html> 
 
 
 
